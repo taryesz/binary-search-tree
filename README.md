@@ -29,3 +29,31 @@ bst.delete(your_node)
 ```python
 bst.print_bst()
 ```
+* To check if the tree is full, use:
+```python
+bst.is_full()
+```
+* To get the tree height, use:
+```python
+bst.height()
+```
+If you want to get a subtree height, starting from a custom node, use:
+```python
+bst.height(your_node)
+```
+* To check if a value is in the tree, use:
+```python
+bst.contains(your_value)
+```
+* To get the smallest value, use:
+```python
+bst.find_min()
+```
+* To get the biggest value, use:
+```python
+bst.find_max()
+```
+* To check if the tree is balanced, use:
+```python
+bst.is_balanced()
+```
